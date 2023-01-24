@@ -1,0 +1,53 @@
+ *{
+    margin: 0px;
+    padding: 10px;
+ }
+ h1{
+   text-align: center;
+   color: white;
+ }
+ h2{
+   color: white;
+   text-align: center;
+ }
+ p{
+   color: white;
+   text-align: center;
+ } 
+ a{
+   width: 50px;
+   color: white;
+   background-color: green;
+ }
+ body{ 
+    background-image: url("img/img0.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+ }
+ div{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #contenedor{
+   height: 400px;
+    background-color: aqua;
+    background-image:url("img/img2.jpg");
+    background-size:cover;
+ }
+ #cabecera{
+   height: 400px;
+    background-color: violet;
+    background-image: url("img/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+#seccion1{
+   height: 400px;
+   background-color: white;
+    background-image: url("img/img4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    background-position: center;
+}
